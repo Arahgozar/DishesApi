@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\DishesApi\\DishesApi\\DishesApi.csproj": {}
+    "c:\\Code\\DishesApi\\DishesApi\\DishesApi.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\DishesApi\\DishesApi\\DishesApi.csproj": {
+    "c:\\Code\\DishesApi\\DishesApi\\DishesApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\DishesApi\\DishesApi\\DishesApi.csproj",
+        "projectUniqueName": "c:\\Code\\DishesApi\\DishesApi\\DishesApi.csproj",
         "projectName": "DishesApi",
-        "projectPath": "C:\\Projects\\DishesApi\\DishesApi\\DishesApi.csproj",
-        "packagesPath": "C:\\Users\\arash\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\DishesApi\\DishesApi\\obj\\",
+        "projectPath": "c:\\Code\\DishesApi\\DishesApi\\DishesApi.csproj",
+        "packagesPath": "C:\\Users\\arahgozar.GLWIZ\\.nuget\\packages\\",
+        "outputPath": "c:\\Code\\DishesApi\\DishesApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\arash\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\arahgozar.GLWIZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +27,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -51,6 +51,10 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[9.0.5, )"
